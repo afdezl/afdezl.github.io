@@ -6,9 +6,55 @@
     <description>Recent content in Tags on afdezl Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 04 May 2018 18:46:44 +0100</lastBuildDate>
     
 	<atom:link href="https://afdezl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Auth</title>
+      <link>https://afdezl.github.io/tags/auth/</link>
+      <pubDate>Fri, 04 May 2018 18:46:44 +0100</pubDate>
+      
+      <guid>https://afdezl.github.io/tags/auth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://afdezl.github.io/tags/development/</link>
+      <pubDate>Fri, 04 May 2018 18:46:44 +0100</pubDate>
+      
+      <guid>https://afdezl.github.io/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Django</title>
+      <link>https://afdezl.github.io/tags/django/</link>
+      <pubDate>Fri, 04 May 2018 18:46:44 +0100</pubDate>
+      
+      <guid>https://afdezl.github.io/tags/django/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React Native</title>
+      <link>https://afdezl.github.io/tags/react-native/</link>
+      <pubDate>Fri, 04 May 2018 18:46:44 +0100</pubDate>
+      
+      <guid>https://afdezl.github.io/tags/react-native/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rest Framework</title>
+      <link>https://afdezl.github.io/tags/rest-framework/</link>
+      <pubDate>Fri, 04 May 2018 18:46:44 +0100</pubDate>
+      
+      <guid>https://afdezl.github.io/tags/rest-framework/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
