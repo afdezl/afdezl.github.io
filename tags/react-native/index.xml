@@ -21,24 +21,5 @@
 These services scale wonderfully and are fully managed by the provider, but sometimes the provided user model does not offer the required flexibility or you simply don&amp;rsquo;t like passing state between the service and your backend.</description>
     </item>
     
-    <item>
-      <title>Getting started with React Native &amp; Django authentication - Part 2</title>
-      <link>https://afdezl.github.io/post/authentication-react-native-django-2/</link>
-      <pubDate>Fri, 04 May 2018 18:46:44 +0100</pubDate>
-      
-      <guid>https://afdezl.github.io/post/authentication-react-native-django-2/</guid>
-      <description>In part 1 we left off with a working authentication API, we will resume here with the creation of our React Native application.
-2. Initialising the React Native app 3. Wiring everything together All the code for this project can be found in this Github repo</description>
-    </item>
-    
-    <item>
-      <title>Getting started with React Native &amp; Django authentication - Part 3</title>
-      <link>https://afdezl.github.io/post/authentication-react-native-django-3/</link>
-      <pubDate>Fri, 04 May 2018 18:46:44 +0100</pubDate>
-      
-      <guid>https://afdezl.github.io/post/authentication-react-native-django-3/</guid>
-      <description>3. Wiring everything together All the code for this project can be found in this Github repo</description>
-    </item>
-    
   </channel>
 </rss>
