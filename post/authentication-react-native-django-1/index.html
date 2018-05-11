@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Adrian F. Luengo">
+<meta name="description" content="Stories about data, code and engineering">
+<meta name="generator" content="Hugo 0.32" />
+<title>Getting started with React Native &amp; Django authentication - Part 1</title>
+<link rel="shortcut icon" href="https://afdezl.github.io/images/favicon.ico">
+<link rel="stylesheet" href="https://afdezl.github.io/css/style.css">
+<link rel="stylesheet" href="https://afdezl.github.io/css/highlight.css">
+
+
+
+<link rel="stylesheet" href="https://afdezl.github.io/css/monosocialiconsfont.css">
+
+
+
+<link href="https://afdezl.github.io/index.xml" rel="alternate" type="application/rss+xml" title="afdezl Blog" />
+
+
+<meta property="og:title" content="Getting started with React Native &amp; Django authentication - Part 1" />
+<meta property="og:description" content="If you&rsquo;re starting with React Native, chances are you&rsquo;re delegating authentication to services like Firebase or Cognito and passing back the state to you application backend in order to provide the right content for the user.
+These services scale wonderfully and are fully managed by the provider, but sometimes the provided user model does not offer the required flexibility or you simply don&rsquo;t like passing state between the service and your backend." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://afdezl.github.io/post/authentication-react-native-django-1/" />
+
+
+
+<meta property="article:published_time" content="2018-05-04T18:46:44&#43;01:00"/>
+
+<meta property="article:modified_time" content="2018-05-04T18:46:44&#43;01:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Getting started with React Native &amp; Django authentication - Part 1">
+<meta itemprop="description" content="If you&rsquo;re starting with React Native, chances are you&rsquo;re delegating authentication to services like Firebase or Cognito and passing back the state to you application backend in order to provide the right content for the user.
+These services scale wonderfully and are fully managed by the provider, but sometimes the provided user model does not offer the required flexibility or you simply don&rsquo;t like passing state between the service and your backend.">
+
+
+<meta itemprop="datePublished" content="2018-05-04T18:46:44&#43;01:00" />
+<meta itemprop="dateModified" content="2018-05-04T18:46:44&#43;01:00" />
+<meta itemprop="wordCount" content="951">
+
+
+
+<meta itemprop="keywords" content="react-native,django,rest-framework,auth,development," />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Getting started with React Native &amp; Django authentication - Part 1"/>
+<meta name="twitter:description" content="If you&rsquo;re starting with React Native, chances are you&rsquo;re delegating authentication to services like Firebase or Cognito and passing back the state to you application backend in order to provide the right content for the user.
+These services scale wonderfully and are fully managed by the provider, but sometimes the provided user model does not offer the required flexibility or you simply don&rsquo;t like passing state between the service and your backend."/>
+
+
+    </head>
+<body>
+    <nav class="main-nav">
+	
+		<a href='https://afdezl.github.io/'> <span class="arrow">←</span>Home</a>
+	
+
+	
+
+	
+		<a class="cta" href="https://afdezl.github.io/index.xml">Subscribe</a>
+	
+</nav>
+
+    <section id="wrapper">
+        
+        
+<article class="post">
+    <header>
+        <h1>Getting started with React Native &amp; Django authentication - Part 1</h1>
+        <h2 class="subtitle"></h2>
+        <h2 class="headline">
+        May 4, 2018
+        <br>
+        
+        
+            
+                <a href="https://afdezl.github.io/tags/react-native">react-native</a>
+            
+                <a href="https://afdezl.github.io/tags/django">django</a>
+            
+                <a href="https://afdezl.github.io/tags/rest-framework">rest-framework</a>
+            
+                <a href="https://afdezl.github.io/tags/auth">auth</a>
+            
+                <a href="https://afdezl.github.io/tags/development">development</a>
+            
+        
+        
+        </h2>
+    </header>
+    <section id="post-body">
+        
+
+<p>If you&rsquo;re starting with React Native, chances are you&rsquo;re delegating authentication to services like <a href="https://firebase.google.com/">Firebase</a> or <a href="https://aws.amazon.com/cognito/">Cognito</a> and passing back the state to you application backend in order to provide the right content for the user.</p>
+
+<p>These services scale wonderfully and are fully managed by the provider, but sometimes the provided user model does not offer the required flexibility or you simply don&rsquo;t like passing state between the service and your backend.</p>
+
+<p>If this is the case, you&rsquo;re in the right place.</p>
+
+<p><em><strong>NOTE: This post assumes you have basic knowledge of both Django and React Native.</strong></em></p>
+
+<p>Let&rsquo;s get to the point.</p>
+
+<h2 id="1-setting-up-django-with-rest-framework">1. Setting up Django with Rest-Framework</h2>
+
+<h3 id="1-1-installing-the-required-packages">1.1 Installing the required packages</h3>
+
+<p>In your terminal, create and activate a python3 virtual environment:</p>
+
+<pre><code class="language-bash">pip install virtualenv virtualenvwrapper
+mkdir django-rn-auth &amp;&amp; cd django-rn-auth
+mkvirtualenv -p $(which python3) django-rn-auth
+</code></pre>
+
+<p>And install the required python packages:</p>
+
+<pre><code class="language-bash">pip install django djangorestframework
+</code></pre>
+
+<p>Once you&rsquo;ve installed the required packages, simply create a project, let&rsquo;s call it <strong>backend</strong>:</p>
+
+<pre><code class="language-bash">django-admin startproject backend
+cd backend
+</code></pre>
+
+<p>and the API app:</p>
+
+<pre><code class="language-bash">django-admin startapp api
+</code></pre>
+
+<p>At this point your directory structure should look like this:</p>
+
+<pre><code class="language-bash">../backend
+    ├── api
+    │   ├── admin.py
+    │   ├── apps.py
+    │   ├── __init__.py
+    │   ├── migrations
+    │   │   └── __init__.py
+    │   ├── models.py
+    │   ├── tests.py
+    │   └── views.py
+    ├── backend
+    │   ├── __init__.py
+    │   ├── settings.py
+    │   ├── urls.py
+    │   └── wsgi.py
+    ├── db.sqlite3
+    └── manage.py
+</code></pre>
+
+<h3 id="1-2-configuring-the-application-settings">1.2 Configuring the application settings</h3>
+
+<p>Now let&rsquo;s modify some the <code>settings.py</code> file to start using the Django Rest Framework, we&rsquo;ll stick to most of the defaults for simplicity, but the following need to be added/modified:</p>
+
+<p><em><strong>NOTE: These settings are appropriate for development only, do not use this in production!</strong></em></p>
+
+<pre><code class="language-python"># backend/settings.py
+
+ALLOWED_HOSTS = ['*']
+
+INSTALLED_APPS = [
+    ...
+    'rest_framework',
+    'rest_framework.authtoken',
+]
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.TokenAuthentication',
+    ),
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    )
+}
+
+</code></pre>
+
+<p>Now that the application is ready, we must run the initial migration and create an admin user:</p>
+
+<pre><code class="language-bash">python manage.py migrate
+python manage.py createsuperuser
+</code></pre>
+
+<p>You can now navigate to <a href="http://127.0.0.1:8000/admin">http://127.0.0.1:8000/admin</a> and login.</p>
+
+<h3 id="1-3-creating-our-authentication-api">1.3 Creating our authentication API</h3>
+
+<p>In order to allow users to access our API, we will need 3 views, <strong>registration</strong>, <strong>login</strong> and <strong>logout</strong></p>
+
+<p>The workflow is fairly simple, upon registration the React Native app will genereate a <code>POST</code> request to the registration endpoint with the new user data (username/email and password) and if properly validated, the endpoint will create a new user and an API token, that can subsequently be used to authenticate requests.</p>
+
+<p>On login, the user credentials will be sent via a <code>POST</code> request and the token will be generated and returned if the user had previously logged out, else the existing token will be returned.</p>
+
+<p>Lastly, the logout endpoint will consist of a <code>GET</code> request, when the request is authenticated, our backend will delete the API token corresponding to the user and return a 200 status code. If this succeeds we will need to route back our user to the login screen on the app.</p>
+
+<h4 id="1-3-1-setting-up-the-serializers">1.3.1 Setting up the serializers</h4>
+
+<p>Serializers are a way of transforming your django models into a standard format, in this case JSON, that can be transformed back to a model object on request.</p>
+
+<p>We will begin by serializing the default <code>User</code> model that Django provides.</p>
+
+<p>Create a file name <strong>serializers.py</strong> in your <strong>backend/api/</strong> directory.</p>
+
+<pre><code class="language-python"># backend/api/serializers.py
+
+from django.contrib.auth import get_user_model
+from rest_framework import serializers
+
+
+class CreateUserSerializer(serializers.ModelSerializer):
+    username = serializers.CharField()
+    password = serializers.CharField(write_only=True,
+                                     style={'input_type': 'password'})
+
+    class Meta:
+        model = get_user_model()
+        fields = ('username', 'password')
+        write_only_fields = ('password')
+        read_only_fields = ('is_staff', 'is_superuser', 'is_active',)
+
+    def create(self, validated_data):
+        user = super(CreateUserSerializer, self).create(validated_data)
+        user.set_password(validated_data['password'])
+        user.save()
+        return user
+
+
+</code></pre>
+
+<h4 id="1-3-2-setting-up-the-views">1.3.2 Setting up the views</h4>
+
+<pre><code class="language-python"># backend/api/views.py
+
+from django.contrib.auth import get_user_model
+from rest_framework.generics import CreateAPIView
+from rest_framework.permissions import AllowAny
+from rest_framework.response import Response
+from rest_framework.authtoken.models import Token
+from rest_framework import status
+from rest_framework.views import APIView
+from api.serializers import CreateUserSerializer
+
+
+class CreateUserAPIView(CreateAPIView):
+    serializer_class = CreateUserSerializer
+    permission_classes = [AllowAny]
+
+    def create(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        self.perform_create(serializer)
+        headers = self.get_success_headers(serializer.data)
+        # We create a token than will be used for future auth
+        token = Token.objects.create(user=serializer.instance)
+        token_data = {&quot;token&quot;: token.key}
+        return Response(
+            {**serializer.data, **token_data},
+            status=status.HTTP_201_CREATED,
+            headers=headers
+        )
+
+
+class LogoutUserAPIView(APIView):
+    queryset = get_user_model().objects.all()
+
+    def get(self, request, format=None):
+        # simply delete the token to force a login
+        request.user.auth_token.delete()
+        return Response(status=status.HTTP_200_OK)
+</code></pre>
+
+<h4 id="1-3-3-adding-the-api-urls">1.3.3 Adding the API URLs</h4>
+
+<p>Create a <code>urls.py</code> file inside the <code>api</code> directory and add the following contents:</p>
+
+<pre><code class="language-python"># backend/api/urls.py
+
+from django.conf.urls import url
+from rest_framework.authtoken.views import obtain_auth_token
+from .views import CreateUserAPIView, LogoutUserAPIView
+
+
+urlpatterns = [
+    url(r'^auth/login/$',
+        obtain_auth_token,
+        name='auth_user_login'),
+    url(r'^auth/register/$',
+        CreateUserAPIView.as_view(),
+        name='auth_user_create'),
+    url(r'^auth/logout/$',
+        LogoutUserAPIView.as_view(),
+        name='auth_user_logout')
+]
+</code></pre>
+
+<p>Make sure you import these URLs in the project wide <code>backend/backend/urls.py</code> by adding the following to the urlpatterns:</p>
+
+<pre><code class="language-python"># backend/backend/urls.py
+
+...
+from django.urls import path, include
+from django.conf.urls import url
+
+urlpatterns = [
+    ...
+    url(r'api/', include('api.urls')),
+]
+
+</code></pre>
+
+<p>If you now run the server:</p>
+
+<pre><code class="language-bash">python manage.py runserver
+</code></pre>
+
+<p>And navigate to the <a href="http://127.0.0.1:8000/api/auth/login/">http://127.0.0.1:8000/api/auth/login/</a> endpoint on the browser, you should be greeted with the following message:</p>
+
+<pre><code>{&quot;detail&quot; : &quot;Method \&quot;GET\&quot; not allowed.&quot;}
+</code></pre>
+
+<p>Not to worry, we haven&rsquo;t authenticated our request as the endpoint only accepts a <code>POST</code> request with the user credentials.</p>
+
+<p>Open up a new terminal window and authenticate as follows (replacing the fields between &lt;&gt;). The output should be the auth token:</p>
+
+<pre><code class="language-bash">curl -X POST -d &quot;username=&lt;YOUR_USERNAME&gt;&amp;password=&lt;YOUR_PASSWORD&gt;&quot; http://127.0.0.1:8000/api/auth/login/
+
+# Output
+-&gt; {&quot;token&quot;:&quot;a64824a0dca3cf8f1c4fc0ccd4eccb635a001346&quot;}
+</code></pre>
+
+<p>You can subsequently use this token to authenticate requests as follows on other endpoints:</p>
+
+<pre><code class="language-bash">curl -X GET http://127.0.0.1:8000/api/mynewendpoint/ -H 'Authorization: Token &lt;YOUR_TOKEN&gt;'
+</code></pre>
+
+<p>Let&rsquo;s test the registration and logout endpoints:</p>
+
+<pre><code class="language-bash"># Registration
+curl -X POST -d &quot;username=&lt;NEW_USER&gt;&amp;password=&lt;PASSWORD&gt;&quot; http://127.0.0.1:8000/api/auth/register/
+
+-&gt; {&quot;username&quot;:&quot;testuser&quot;,&quot;token&quot;:&quot;228c77007621a0d479cb7a8db60925e644e5d7fa&quot;}
+
+# Logout
+curl -X GET http://127.0.0.1:8000/api/auth/logout/ -H 'Authorization: Token &lt;YOUR_TOKEN&gt;'
+</code></pre>
+
+<p>In <a href="http://something.com">part 2</a> we will focus on building the React Native application and in <a href="http://something.com">part 3</a> we will connect and test everything together.</p>
+
+<p>All the code for this project can be found in this <a href="https://github.com/afdezl">Github repo</a></p>
+
+    </section>
+</article>
+
+<footer id="post-meta" class="clearfix">
+    
+    <img class="avatar" src="https://afdezl.github.io/images/avatar.png">
+    <div>
+        <span class="dark">Adrian F. Luengo</span>
+        <span>Data scientist/engineer</span>
+    </div>
+    
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fafdezl.github.io%2fpost%2fauthentication-react-native-django-1%2f - Getting%20started%20with%20React%20Native%20%26%20Django%20authentication%20-%20Part%201 "><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+    </section>
+</footer>
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "spf13" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/post/authentication-react-native-django-2/">Getting started with React Native &amp; Django authentication - Part 2<aside class="dates">May 4 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/post/authentication-react-native-django-3/">Getting started with React Native &amp; Django authentication - Part 3<aside class="dates">May 4 2018</aside></a>
+        </li>
+    
+</ul>
+
+
+
+        <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    
+    <a class="symbol" href="https://www.github.com/afdezl">
+        circlegithub
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2018 Adrian F. Luengo
+    
+    </p>
+</footer>
+
+    </section>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://afdezl.github.io/js/main.js"></script>
+<script src="https://afdezl.github.io/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+</body>
+</html>
