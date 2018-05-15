@@ -6,10 +6,21 @@
     <description>Recent content in Development on afdezl Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 May 2018 18:46:44 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 15 May 2018 10:46:44 +0100</lastBuildDate>
     
 	<atom:link href="https://afdezl.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Getting started with React Native &amp; Django authentication - Part 2</title>
+      <link>https://afdezl.github.io/post/authentication-react-native-django-2/</link>
+      <pubDate>Tue, 15 May 2018 10:46:44 +0100</pubDate>
+      
+      <guid>https://afdezl.github.io/post/authentication-react-native-django-2/</guid>
+      <description>In part 1 we left off with a working authentication API in Django, we will resume here with the creation of our React Native application.
+2. Initialising the React Native app 2.1 Required toolset You will need to have node and npm installed. Navigate to the django-rn-auth directory set up in part 1 and initlialise a new React Native app as follows:
+npm install -g create-react-native-app create-react-native-app authapp &amp;amp;&amp;amp; cd authapp  Once the application directory has been initialised, you can start the development server by running:</description>
+    </item>
     
     <item>
       <title>Getting started with React Native &amp; Django authentication - Part 1</title>
