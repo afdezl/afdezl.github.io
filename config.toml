@@ -2,7 +2,7 @@
 baseurl = "https://afdezl.github.io/"
 #themesDir = "../.."
 languageCode = "en-us"
-title = "Blog Adrian Fernandez"
+title = "Blog afdezl"
 theme = "hugo-cactus-theme"
 publishDir = "public"
 # Enter your tracking code to enable Google Analytics
@@ -11,7 +11,7 @@ googleAnalytics = ""
 disqusShortname = "afdezl"
 
 [params]
-	name = "Adrian F. Luengo"
+	name = "Adrian Fernandez"
 	description = "Data, code and engineering"
 	bio = "Technology, data and engineering"
 	# Enter optionally your twitter account
