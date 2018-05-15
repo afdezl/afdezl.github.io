@@ -17,7 +17,7 @@
       <pubDate>Fri, 04 May 2018 18:46:44 +0100</pubDate>
       
       <guid>https://afdezl.github.io/post/authentication-react-native-django-1/</guid>
-      <description>If you&amp;rsquo;re starting with React Native, chances are you&amp;rsquo;re delegating authentication to services like Firebase or Cognito and passing back the state to you application backend in order to provide the right content for the user.
+      <description>If you&amp;rsquo;re starting with React Native, chances are you&amp;rsquo;re delegating authentication to services like Firebase or Cognito and passing back the state to your application backend in order to provide the right content for the user.
 These services scale wonderfully and are fully managed by the provider, but sometimes the provided user model does not offer the required flexibility or you simply don&amp;rsquo;t like passing state between the service and your backend.</description>
     </item>
     
