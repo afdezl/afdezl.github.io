@@ -2,18 +2,18 @@
 baseurl = "https://afdezl.github.io/"
 #themesDir = "../.."
 languageCode = "en-us"
-title = "afdezl Blog"
+title = "Blog Adrian Fernandez"
 theme = "hugo-cactus-theme"
 publishDir = "public"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
-disqusShortname = "spf13"
+disqusShortname = "afdezl"
 
 [params]
 	name = "Adrian F. Luengo"
-	description = "Stories about data, code and engineering"
-	bio = "Data, engineering and more"
+	description = "Data, code and engineering"
+	bio = "Technology, data and engineering"
 	# Enter optionally your twitter account
 	github = ""
 	enableRSS = true
@@ -35,7 +35,7 @@ disqusShortname = "spf13"
 	readMore = ""
 	copyright = ""
 	# Sharing options and author information in posts
-	aboutAuthor = "Data scientist/engineer"
+	aboutAuthor = "Data engineer / developer"
 	tweet = ""
 	share = ""
 	# 404 page
