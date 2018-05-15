@@ -1,0 +1,1117 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"subs",
+				"subscriptions"
+			],
+			[
+				"ren",
+				"renderContent"
+			],
+			[
+				"re",
+				"renderContent"
+			],
+			[
+				"ac",
+				"activities"
+			],
+			[
+				"item",
+				"itemContainerStyle"
+			],
+			[
+				"A",
+				"ACTIVITY_SUBSCRIPTION_CREATE"
+			],
+			[
+				"style",
+				"styles"
+			],
+			[
+				"act",
+				"activity"
+			],
+			[
+				"pro",
+				"props\tReact: this.props."
+			],
+			[
+				"render",
+				"renderRow"
+			],
+			[
+				"Act",
+				"activitiesFetch"
+			],
+			[
+				"acti",
+				"activities"
+			],
+			[
+				"C",
+				"CardSection"
+			],
+			[
+				"Con",
+				"Container"
+			],
+			[
+				"Ac",
+				"ActivityListItem"
+			],
+			[
+				"Add",
+				"AddActivities"
+			],
+			[
+				"fi",
+				"firstName"
+			],
+			[
+				"dob",
+				"dobChanged"
+			],
+			[
+				"fri",
+				"firstNameChanged"
+			],
+			[
+				"do",
+				"dobChanged"
+			],
+			[
+				"firs",
+				"firstNameChanged"
+			],
+			[
+				"last",
+				"lastNameChanged"
+			],
+			[
+				"create",
+				"createUserFail"
+			],
+			[
+				"login",
+				"loginUserSuccess"
+			],
+			[
+				"set",
+				"setAuthToken"
+			],
+			[
+				"auth",
+				"authErrorHandler"
+			],
+			[
+				"base",
+				"baseUrl"
+			],
+			[
+				"HT",
+				"HTTP_403_FORBIDDEN\tstatement"
+			],
+			[
+				"auth_",
+				"auth_user_create"
+			],
+			[
+				"stat",
+				"status_code"
+			],
+			[
+				"user",
+				"user_data\tstatement"
+			],
+			[
+				"API",
+				"APITestCase\tclass"
+			],
+			[
+				"HTTP",
+				"HTTP_201_CREATED\tstatement"
+			],
+			[
+				"te",
+				"test\tmodule"
+			],
+			[
+				"exe",
+				"except\tkeyword"
+			],
+			[
+				"t",
+				"test\tmodule"
+			],
+			[
+				"Subs",
+				"SubscriptionFactory\tclass"
+			],
+			[
+				"time",
+				"timedelta\tclass"
+			],
+			[
+				"Fu",
+				"FuzzyTime\tclass"
+			],
+			[
+				"ran",
+				"random_future_time\tfunction"
+			],
+			[
+				"new",
+				"new_minute\tstatement"
+			],
+			[
+				"m",
+				"min\tfunction"
+			],
+			[
+				"L",
+				"LazyAttribute\tclass"
+			],
+			[
+				"F",
+				"FuzzyInteger\tclass"
+			],
+			[
+				"mi",
+				"mixer\tmodule"
+			],
+			[
+				"sub",
+				"subscription_2\tstatement"
+			],
+			[
+				"s",
+				"subscription_1\tstatement"
+			],
+			[
+				"fu",
+				"fuzzy\tmodule"
+			],
+			[
+				"User",
+				"UserFactory\tclass"
+			],
+			[
+				"activi",
+				"activity\tstatement"
+			],
+			[
+				"Ava",
+				"AvailabilityFactory\tclass"
+			],
+			[
+				"Fuz",
+				"FuzzyDate\tclass"
+			],
+			[
+				"f",
+				"fuzzy\tmodule"
+			],
+			[
+				"as",
+				"ascii_lowercase\tinstance"
+			],
+			[
+				"fac",
+				"factories"
+			],
+			[
+				"Sus",
+				"SubscriptionFactory\tDefault"
+			],
+			[
+				"Sub",
+				"SubFactory\tclass"
+			],
+			[
+				"activity_data",
+				"activity_data\tstatement"
+			],
+			[
+				"ass",
+				"assertRaises\tfunction"
+			],
+			[
+				"ava",
+				"availability"
+			],
+			[
+				"avai",
+				"availability_data"
+			],
+			[
+				"a",
+				"availability\tDefault"
+			],
+			[
+				"de",
+				"defaults\tmodule"
+			],
+			[
+				"B",
+				"BooleanField\tclass"
+			],
+			[
+				"l",
+				"lookup_field\tstatement"
+			],
+			[
+				"Re",
+				"RetrieveAPIView\tDefault"
+			],
+			[
+				"subscription__",
+				"subscription__activity__name\tDefault"
+			],
+			[
+				"quer",
+				"query_params\tfunction"
+			],
+			[
+				"Av",
+				"availability"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"backgoun",
+				"background-color"
+			],
+			[
+				"canter",
+				"cantera_index"
+			],
+			[
+				"con",
+				"conflicting_slots\tstatement"
+			],
+			[
+				"vali",
+				"validate_lowercase_and_only_underscores\tfunction"
+			],
+			[
+				"num",
+				"num_subscriptions\tDefault"
+			],
+			[
+				"gene",
+				"generate_unique_activity_user_combinations\tfunction"
+			],
+			[
+				"uni",
+				"unique_combinations\tstatement"
+			],
+			[
+				"ite",
+				"itertools\tmodule"
+			],
+			[
+				"mem",
+				"memoize_activity_user_pairs\tfunction"
+			],
+			[
+				"tok",
+				"tokenize_args\tfunction"
+			],
+			[
+				"gen",
+				"gen_random_availability\tfunction"
+			],
+			[
+				"gen_ran",
+				"gen_random_level\tfunction"
+			],
+			[
+				"obje",
+				"objects\tstatement"
+			],
+			[
+				"paren",
+				"parent_activity\tstatement"
+			],
+			[
+				"slack",
+				"slack_installed"
+			],
+			[
+				"sl",
+				"slack_installed"
+			],
+			[
+				"month",
+				"monthrange\tfunction"
+			],
+			[
+				"rand",
+				"randint\tstatement"
+			],
+			[
+				"S",
+				"SubscriptionCreateAPIView\tclass"
+			],
+			[
+				"Acti",
+				"ActivitySerializer\tclass"
+			],
+			[
+				"Ch",
+				"CharField\tclass"
+			],
+			[
+				"Subscription",
+				"SubscriptionCreateAPIView"
+			],
+			[
+				"Sera",
+				"SerializerMethodField\tclass"
+			],
+			[
+				"P",
+				"PrimaryKeyRelatedField\tclass"
+			],
+			[
+				"Avila",
+				"AvailabilitySerializer\tclass"
+			],
+			[
+				"availla",
+				"Availabilities"
+			],
+			[
+				"choi",
+				"choices"
+			],
+			[
+				"seri",
+				"serializers\tDefault"
+			],
+			[
+				"ser",
+				"serializer_class"
+			],
+			[
+				"di",
+				"dirname\tstatement"
+			],
+			[
+				"li",
+				"listdir\tfunction"
+			],
+			[
+				"False",
+				"False\tkeyword"
+			],
+			[
+				"In",
+				"SmallIntegerField\tclass"
+			],
+			[
+				"ManyT",
+				"ManyToOneRel\tclass"
+			],
+			[
+				"DA",
+				"DateTimeField\tclass"
+			],
+			[
+				"Date",
+				"DateTimeField\tclass"
+			],
+			[
+				"date",
+				"date_joined"
+			],
+			[
+				"Lo",
+				"LogoutUserAPIView\tclass"
+			],
+			[
+				"geet",
+				"get_user_model\tfunction"
+			],
+			[
+				"rea",
+				"rest_framework\tmodule"
+			],
+			[
+				"has",
+				"hashers\tmodule"
+			],
+			[
+				"R",
+				"Response\tclass"
+			],
+			[
+				"Crea",
+				"CreateAPIView\tclass"
+			],
+			[
+				"Ser",
+				"serializers"
+			],
+			[
+				"D",
+				"DefaultTokenAuthentication\tclass"
+			],
+			[
+				"v",
+				"views\tmodule"
+			],
+			[
+				"Us",
+				"UserAdmin"
+			],
+			[
+				"ver",
+				"verify_jwt_token\tDefault"
+			],
+			[
+				"ob",
+				"obtain_jwt_token\tmodule"
+			],
+			[
+				"U",
+				"UserActivitySerializer\tclass"
+			],
+			[
+				"lo",
+				"login\tfunction"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"json",
+				"json_response\tfunction"
+			],
+			[
+				"H",
+				"HttpResponse\tclass"
+			],
+			[
+				"fies",
+				"first_name"
+			],
+			[
+				"c",
+				"checkuser"
+			],
+			[
+				"u",
+				"userLogout\tfunction"
+			],
+			[
+				"j",
+				"JsonResponse\tclass"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 233.0,
+		"last_filter": "lower",
+		"selected_items":
+		[
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown",
+				"MarkdownTOC:Update TOC"
+			],
+			[
+				"previre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdow",
+				"MarkdownTOC:Insert TOC"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"makrd",
+				"MarkdownEditing: Organize References"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"test",
+				"Anaconda: Run Project Tests"
+			],
+			[
+				"mca",
+				"Anaconda: McCabe complexity check"
+			],
+			[
+				"anacon",
+				"Anaconda: Goto object definition"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"subl",
+				"SublimeLinter: Show Line Errors"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"markdown ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"side ba",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"con",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"babel",
+				"Preferences: Babel – Default"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"col",
+				"Color Picker"
+			],
+			[
+				"anf",
+				"ANF: New File"
+			],
+			[
+				"syn",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"pacak",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"ESLint"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"ES",
+				"ESLint"
+			],
+			[
+				"conver",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"origami",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"settin",
+				"Preferences: Settings – Syntax Specific"
+			],
+			[
+				"orig",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"mark",
+				"Markdown Preview: Export HTML in Sublime Text"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"yam",
+				"Set Syntax: YAML"
+			],
+			[
+				"jin",
+				"Set Syntax: Jinja2"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML (Jinja2)"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML (Jinja2)"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML (Jinja2)"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML (Jinja2)"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"setting",
+				"Preferences: Settings – Syntax Specific"
+			],
+			[
+				"auto",
+				"AutoPEP8: Preview Changes"
+			],
+			[
+				"settings",
+				"Preferences: AutoPep8 Settings – User"
+			],
+			[
+				"set",
+				"Preferences: AutoPep8 Settings – User"
+			],
+			[
+				"pep",
+				"AutoPEP8: Preview Changes"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"prefere",
+				"Preferences: Settings"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"mat",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"matl",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			]
+		],
+		"width": 541.0
+	},
+	"console":
+	{
+		"height": 184.0,
+		"history":
+		[
+			"exit()",
+			"ls",
+			"exit",
+			"import sys",
+			"ls",
+			"exit()",
+			"exit",
+			"sys.version",
+			"sys.v",
+			"import sys",
+			"ls",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			" import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/afdezl/projects/afdezl.github.io/content/post/authentication-react-native-django.md",
+		"/home/afdezl/projects/cantera/cantera-app/src/components/common/NavigationBar.js",
+		"/home/afdezl/projects/cantera/cantera-app/node_modules/native-base/src/basic/Card.js",
+		"/home/afdezl/projects/cantera/cantera-app/src/actions/AuthActions.js",
+		"/home/afdezl/projects/cantera/cantera-app/src/reducers/AuthReducer.js",
+		"/home/afdezl/projects/cantera/cantera-app/src/reducers/index.js",
+		"/home/afdezl/projects/cantera/cantera-app/src/components/Events.js",
+		"/home/afdezl/projects/cantera/cantera-app/src/components/ActivityListItem.js",
+		"/home/afdezl/projects/cantera/cantera-app/src/components/Settings.js",
+		"/home/afdezl/projects/cantera/cantera-app/src/components/Activities.js",
+		"/home/afdezl/projects/cantera/cantera-app/src/components/Sports.js",
+		"/home/afdezl/projects/cantera/cantera-app/android/settings.gradle",
+		"/home/afdezl/projects/cantera/cantera-app/android/build.gradle",
+		"/home/afdezl/projects/cantera/cantera-app/android/app/src/main/java/com/cantera/MainApplication.java",
+		"/home/afdezl/projects/cantera/cantera-app/android/app/build.gradle",
+		"/home/afdezl/projects/cantera/cantera-app/src/components/CreateUserForm.js",
+		"/home/afdezl/projects/cantera/cantera-app/node_modules/mime/types.json",
+		"/home/afdezl/projects/cantera/cantera-api-js/index.js",
+		"/home/afdezl/projects/cantera/cantera-app/src/config/api.js",
+		"/home/afdezl/projects/cantera/cantera-app/src/App.js",
+		"/home/afdezl/projects/programming_problems/trapping_rainwater.py",
+		"/home/afdezl/projects/cantera/cantera-backend/cantera/settings/development.py",
+		"/home/afdezl/projects/cantera/cantera-backend/cantera/settings/base.py",
+		"/home/afdezl/projects/cantera/cantera-api-js/config.js",
+		"/home/afdezl/projects/cantera/cantera-backend/crm/tests/factories.py",
+		"/home/afdezl/projects/cantera/cantera-backend/activity/tests/factories.py",
+		"/home/afdezl/projects/cantera/cantera-backend/api/serializers/activity.py",
+		"/home/afdezl/projects/cantera/cantera-backend/activity/tests/test_models.py",
+		"/home/afdezl/projects/cantera/cantera-backend/api/tests/tests_views/test_views_activity.py",
+		"/home/afdezl/projects/cantera/cantera-backend/activity/views.py",
+		"/home/afdezl/projects/cantera/cantera-backend/crm/views.py",
+		"/home/afdezl/projects/cantera/cantera-backend/api/tests/tests_serializers/test_serializers_activity.py",
+		"/home/afdezl/projects/cantera/cantera-backend/api/tests/tests_views/test_views_auth.py",
+		"/home/afdezl/projects/cantera/cantera-backend/README.md",
+		"/home/afdezl/projects/cantera/cantera-backend/bitbucket-pipelines.yml",
+		"/home/afdezl/projects/cantera/cantera-backend/api/views/activity.py",
+		"/home/afdezl/projects/cantera/cantera-backend/scripts/generate_subscriptions.py",
+		"/home/afdezl/projects/cantera/cantera-backend/api/urls.py",
+		"/home/afdezl/projects/cantera/cantera-backend/api/tests/tests_serializers/test_serializers_auth.py",
+		"/home/afdezl/projects/cantera/cantera-backend/scripts/generate_activities.py",
+		"/home/afdezl/projects/cantera/cantera-backend/scripts/generate_users.py",
+		"/home/afdezl/projects/cantera/cantera-backend/cantera/settings/testing.py",
+		"/home/afdezl/projects/cantera/cantera-backend/api/tests.py",
+		"/home/afdezl/.virtualenvs/cantera-backend/lib/python3.5/site-packages/django/views/defaults.py",
+		"/home/afdezl/projects/cantera/cantera-backend/crm/tests/test_models.py",
+		"/home/afdezl/projects/cantera/cantera-backend/crm/models.py",
+		"/home/afdezl/projects/cantera/cantera-backend/scripts/utils.py",
+		"/home/afdezl/projects/cantera/cantera-backend/activity/models.py",
+		"/home/afdezl/projects/cantera/cantera-backend/crm/tests/__init__.py",
+		"/home/afdezl/projects/cantera/cantera-backend/activity/validators.py",
+		"/home/afdezl/projects/cantera/cantera-backend/activity/tests/__init__.py",
+		"/home/afdezl/projects/cantera/cantera-backend/cantera/views.py",
+		"/home/afdezl/projects/cantera/cantera-backend/cantera/urls.py",
+		"/home/afdezl/projects/cantera/cantera-backend/static/css/under-construction.css",
+		"/home/afdezl/projects/cantera/cantera-backend/static/js/countdown.js",
+		"/home/afdezl/projects/cantera/cantera-backend/templates/cantera/index.html",
+		"/home/afdezl/projects/cantera/cantera-backend/templates/home/index.html",
+		"/home/afdezl/projects/cantera/cantera-backend/static/under-construction.css",
+		"/home/afdezl/projects/cantera/cantera-backend/templates/index.html",
+		"/home/afdezl/projects/cantera/cantera-backend/activity/admin.py",
+		"/home/afdezl/projects/ansible-config/roles/laptop/tasks/main.yml",
+		"/home/afdezl/.virtualenvs/cantera-backend/lib/python3.5/site-packages/django/contrib/auth/models.py",
+		"/home/afdezl/projects/cantera/cantera-backend/api/views/auth.py",
+		"/home/afdezl/projects/cantera/cantera-backend/utils/generate_users.py",
+		"/home/afdezl/projects/cantera/cantera-backend/utils/__init__.py",
+		"/home/afdezl/projects/cantera/cantera-backend/api/serializers/auth.py",
+		"/home/afdezl/projects/cantera/cantera-backend/utils/apps.py",
+		"/home/afdezl/projects/cantera/cantera-backend/api/views/__init__.py",
+		"/home/afdezl/projects/cantera/cantera-backend/utils/clear_all_migrations.py",
+		"/home/afdezl/projects/cantera/cantera-backend/api/authentication.py",
+		"/home/afdezl/projects/cantera/cantera-backend/api/signals.py",
+		"/home/afdezl/projects/cantera/cantera-backend/api/views.py",
+		"/home/afdezl/projects/cantera/cantera-backend/custom_auth/apps.py",
+		"/home/afdezl/projects/cantera/cantera-backend/api/models.py",
+		"/home/afdezl/projects/cantera/cantera-backend/custom_auth/admin.py",
+		"/home/afdezl/projects/cantera/cantera-backend/custom_auth/__init__.py",
+		"/home/afdezl/projects/cantera/cantera-backend/custom_auth/migrations/__init__.py",
+		"/home/afdezl/projects/cantera/cantera-backend/api/admin.py",
+		"/home/afdezl/projects/cantera/cantera-backend/cantera/migrations/__init__.py",
+		"/home/afdezl/projects/cantera/cantera-backend/cantera/admin.py",
+		"/home/afdezl/projects/cantera/cantera-backend/auth/apps.py",
+		"/home/afdezl/projects/cantera/cantera-backend/cantera/models.py",
+		"/home/afdezl/projects/cantera/cantera-backend/core/models.py",
+		"/home/afdezl/projects/cantera/cantera-backend/api/serializers/__init__.py",
+		"/home/afdezl/.config/sublime-text-3/Packages/User/sublime_jedi.sublime-settings",
+		"/home/afdezl/.config/sublime-text-3/Packages/Jedi - Python autocompletion/sublime_jedi.sublime-settings",
+		"/home/afdezl/projects/cantera/cantera-backend/cantera/settings/local.py",
+		"/home/afdezl/projects/cantera/cantera-backend/core/admin.py",
+		"/home/afdezl/projects/cantera/cantera-backend/templates/rest_framework/api.html",
+		"/home/afdezl/projects/cantera/cantera-backend/api/viewsets.py",
+		"/home/afdezl/projects/cantera/cantera-backend/api/serializers.py",
+		"/home/afdezl/projects/cantera/cantera-backend/cantera/serializers.py",
+		"/home/afdezl/projects/cantera/cantera-backend/core/migrations/0001_initial.py",
+		"/home/afdezl/projects/cantera/cantera-backend/settings.py",
+		"/home/afdezl/projects/cantera/cantera-backend/cantera/wsgi.py",
+		"/home/afdezl/projects/rpi-headless/rpi_headless.py",
+		"/home/afdezl/projects/luengo.co/config.toml",
+		"/home/afdezl/projects/luengo.co/themes/hugo-icon/layouts/partials/nav.html",
+		"/home/afdezl/projects/cantera/cantera/src/components/common/Form.js",
+		"/home/afdezl/projects/cantera/cantera/src/components/LoginForm.js",
+		"/home/afdezl/projects/cantera/cantera/src/components/common/Input.js",
+		"/home/afdezl/projects/cantera/cantera/src/components/common/index.js",
+		"/home/afdezl/projects/cantera/cantera/src/components/common/UsernameAndPasswordForm.js",
+		"/home/afdezl/projects/cantera/cantera/src/components/CreateUserForm.js",
+		"/home/afdezl/projects/cantera/cantera/src/actions/AuthActions.js",
+		"/home/afdezl/projects/cantera/cantera/src/reducers/AuthReducer.js",
+		"/home/afdezl/projects/cantera/cantera/src/actions/types.js",
+		"/home/afdezl/projects/cantera/cantera/src/actions/UserActions.js",
+		"/home/afdezl/projects/cantera/cantera/src/Router.js",
+		"/home/afdezl/projects/cantera/cantera/android/app/src/main/java/com/cantera/MainApplication.java",
+		"/home/afdezl/projects/cantera/cantera/android/app/build.gradle",
+		"/home/afdezl/projects/rpi-headless/README.md",
+		"/home/afdezl/projects/cantera/cantera/src/components/ActivityForm.js",
+		"/home/afdezl/projects/udemy/react-native/manager/src/actions/EmployeeActions.js",
+		"/home/afdezl/projects/cantera/cantera/src/components/Activities.js",
+		"/home/afdezl/projects/cantera/cantera/src/components/ActivityEdit.js",
+		"/home/afdezl/projects/cantera/cantera/src/components/ActivityAdd.js",
+		"/home/afdezl/projects/cantera/cantera/src/components/common/Button.js",
+		"/home/afdezl/projects/cantera/cantera/src/components/Pulse.js",
+		"/home/afdezl/projects/cantera/cantera/src/components/Events.js",
+		"/home/afdezl/projects/cantera/cantera/src/components/Settings.js",
+		"/home/afdezl/projects/cantera/cantera/src/components/AddActivityForm.js",
+		"/home/afdezl/projects/cantera/cantera/src/App.js",
+		"/home/afdezl/projects/ansible-config/README.md",
+		"/home/afdezl/projects/ansible-config/roles/s3fs/tasks/main.yml",
+		"/home/afdezl/projects/ansible-config/roles/s3fs/defaults/main.yml",
+		"/home/afdezl/projects/cantera/cantera/src/components/common/NavigationBar.js",
+		"/home/afdezl/projects/udacity/google-machine-learning/ud120-projects/choose_your_own/your_algorithm.py"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 154.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 85.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 132.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 120.0
+	},
+	"output.autopep8":
+	{
+		"height": 120.0
+	},
+	"output.exec":
+	{
+		"height": 254.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 120.0
+	},
+	"output.mde":
+	{
+		"height": 120.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "afdezl.github.io.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"card",
+				"node_modules/native-base/src/basic/Card.js"
+			],
+			[
+				"router",
+				"src/Router.js"
+			],
+			[
+				"authre",
+				"src/reducers/AuthReducer.js"
+			],
+			[
+				"type",
+				"src/actions/types.js"
+			],
+			[
+				"authc",
+				"src/actions/AuthActions.js"
+			],
+			[
+				"toml",
+				"luengo.co/config.toml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/projects/cantera/cantera-backend/cantera-backend.sublime-project"
+			],
+			[
+				"can",
+				"~/projects/cantera/cantera-backend/cantera-backend.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 379.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 612.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 293.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
