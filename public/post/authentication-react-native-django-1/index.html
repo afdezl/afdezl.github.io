@@ -52,7 +52,7 @@ These services scale wonderfully and are fully managed by the provider, but some
 
 <meta itemprop="datePublished" content="2018-05-04T18:46:44&#43;01:00" />
 <meta itemprop="dateModified" content="2018-05-04T18:46:44&#43;01:00" />
-<meta itemprop="wordCount" content="951">
+<meta itemprop="wordCount" content="950">
 
 
 
@@ -231,7 +231,7 @@ class CreateUserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = get_user_model()
-        fields = ('username', 'password')
+        fields = ('username', 'password', 'first_name', 'last_name')
         write_only_fields = ('password')
         read_only_fields = ('is_staff', 'is_superuser', 'is_active',)
 
@@ -361,7 +361,7 @@ curl -X POST -d &quot;username=&lt;NEW_USER&gt;&amp;password=&lt;PASSWORD&gt;&qu
 curl -X GET http://127.0.0.1:8000/api/auth/logout/ -H 'Authorization: Token &lt;YOUR_TOKEN&gt;'
 </code></pre>
 
-<p>In <a href="https://afdezl.github.io/post/authentication-react-native-django-2">part 2</a> we will focus on building the React Native application and in <a href="https://afdezl.github.io/post/authentication-react-native-django-3">part 3</a> we will connect and test everything together.</p>
+<p>In <a href="https://afdezl.github.io/post/authentication-react-native-django-2">part 2</a> we will focus on building the React Native application and biding it to our custom authentication backend.</p>
 
 <p>All the code for this project can be found in this <a href="https://github.com/afdezl">Github repo</a></p>
 
@@ -416,6 +416,10 @@ curl -X GET http://127.0.0.1:8000/api/auth/logout/ -H 'Authorization: Token &lt;
 
     
     
+    
+        <li>
+            <a href="/post/authentication-react-native-django-2/">Getting started with React Native &amp; Django authentication - Part 2<aside class="dates">May 15 2018</aside></a>
+        </li>
     
 </ul>
 

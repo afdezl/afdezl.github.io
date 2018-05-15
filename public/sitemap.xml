@@ -3,13 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://afdezl.github.io/post/authentication-react-native-django-2/</loc>
+    <lastmod>2018-05-15T10:46:44+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://afdezl.github.io/post/authentication-react-native-django-1/</loc>
     <lastmod>2018-05-04T18:46:44+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://afdezl.github.io/tags/auth/</loc>
-    <lastmod>2018-05-04T18:46:44+01:00</lastmod>
+    <lastmod>2018-05-15T10:46:44+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -20,25 +25,25 @@
   
   <url>
     <loc>https://afdezl.github.io/tags/development/</loc>
-    <lastmod>2018-05-04T18:46:44+01:00</lastmod>
+    <lastmod>2018-05-15T10:46:44+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://afdezl.github.io/tags/django/</loc>
-    <lastmod>2018-05-04T18:46:44+01:00</lastmod>
+    <lastmod>2018-05-15T10:46:44+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://afdezl.github.io/post/</loc>
-    <lastmod>2018-05-04T18:46:44+01:00</lastmod>
+    <lastmod>2018-05-15T10:46:44+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://afdezl.github.io/tags/react-native/</loc>
-    <lastmod>2018-05-04T18:46:44+01:00</lastmod>
+    <lastmod>2018-05-15T10:46:44+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -50,13 +55,13 @@
   
   <url>
     <loc>https://afdezl.github.io/tags/</loc>
-    <lastmod>2018-05-04T18:46:44+01:00</lastmod>
+    <lastmod>2018-05-15T10:46:44+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://afdezl.github.io/</loc>
-    <lastmod>2018-05-04T18:46:44+01:00</lastmod>
+    <lastmod>2018-05-15T10:46:44+01:00</lastmod>
     <priority>0</priority>
   </url>
   
